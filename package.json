@@ -1,0 +1,21 @@
+{
+  "name": "mulmo-dictionary",
+  "version": "1.0.0",
+  "description": "Mulmo Dictionary is an AI-native multi-modal language dictionary, which takes advantage of MulmoCast.",
+  "homepage": "https://github.com/receptron/mulmo-dictionary#readme",
+  "bugs": {
+    "url": "https://github.com/receptron/mulmo-dictionary/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/receptron/mulmo-dictionary.git"
+  },
+  "license": "MIT",
+  "author": "receptron",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "movie": "mulmo movie --grouped"
+  }
+}
