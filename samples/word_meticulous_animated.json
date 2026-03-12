@@ -76,7 +76,7 @@
       "image": {
         "type": "html_tailwind",
         "html": [
-          "<div class='w-full h-full flex flex-col px-16 pt-24' style='background: linear-gradient(135deg, #1e1b4b, #581c87)'>",
+          "<div class='w-full h-full flex flex-col items-center justify-center px-16' style='background: linear-gradient(135deg, #1e1b4b, #581c87)'>",
           "  <div id='title' class='text-purple-300 text-3xl tracking-widest uppercase mb-14' style='opacity:0'>Examples</div>",
           "  <div id='s1' class='text-white text-4xl mb-10 leading-snug' style='opacity:0;transform:translateX(-48px)'>",
           "    She is <span style='color:#fde047;font-weight:700'>meticulous</span> about her work.",
