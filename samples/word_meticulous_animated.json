@@ -24,6 +24,16 @@
     },
     "bgmVolume": 0.1
   },
+  "imageParams": {
+    "provider": "google",
+    "model": "gemini-2.5-flash-image",
+    "images": {
+      "sample_1": {
+        "type": "imagePrompt",
+        "prompt": "A focused young professional woman sitting at a clean, organized desk, carefully reviewing documents with a fine-tipped pen in hand. She wears glasses and smart business casual attire. Every item on the desk — papers, sticky notes, pens — is neatly arranged. Warm office lighting with soft bokeh background. Photorealistic style, shallow depth of field, warm tones, cinematic composition."
+      }
+    }
+  },
   "beats": [
     {
       "text": "見るだけで新しい単語が身につく動画です。",
