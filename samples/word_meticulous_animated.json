@@ -106,6 +106,7 @@
         "type": "html_tailwind",
         "html": [
           "<div class='w-full h-full flex flex-col items-center justify-center px-16' style='background: linear-gradient(135deg, #1e1b4b, #581c87)'>",
+          "  <img src='image:sample_1' class='rounded-2xl mb-10 object-cover' style='width:512px;height:768px'>",
           "  <div id='en' class='text-white text-5xl text-center leading-tight mb-12' style='opacity:0;transform:translateY(-24px)'>",
           "    She is <span style='color:#fde047;font-weight:700'>meticulous</span> about her work.",
           "  </div>",

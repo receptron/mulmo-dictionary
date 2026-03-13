@@ -16,7 +16,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "latest": "yarn global add mulmocast",
+    "latest": "npm update -g mulmocast",
     "movie": "mulmo movie --grouped"
   }
 }
