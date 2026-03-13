@@ -10,11 +10,10 @@
   },
   "speechParams": {
     "speakers": {
-      "Presenter": {
-        "voiceId": "shimmer"
-      },
       "Announcer": {
-        "provider": "google"
+        "provider": "google",
+        "model": "gemini-2.5-flash-tts",
+        "voiceId": "Leda"
       }
     }
   },
@@ -28,8 +27,9 @@
   "beats": [
     {
       "text": "見るだけで新しい単語が身につく動画です。",
+      "speaker": "Announcer",
       "speechOptions": {
-        "instruction": "Speak it very very quickly."
+        "speed": 2.0
       },
       "image": {
         "type": "html_tailwind",
