@@ -52,10 +52,12 @@
       "image": {
         "type": "html_tailwind",
         "html": [
-          "<div class='w-full h-full flex flex-col items-center justify-center' style='background: linear-gradient(135deg, #1e1b4b, #581c87)'>",
-          "  <div class='font-bold text-center mb-16 leading-relaxed' style='color:#fde047;font-size:6.4rem'>見るだけで<br>新しい英単語が<br>身につく動画</div>",
-          "  <div class='text-purple-300 text-3xl tracking-widest uppercase mb-8'>今日の単語</div>",
-          "  <div class='text-white font-bold text-center' style='font-size:100px;line-height:1.1'>Meticulous</div>",
+          "<div class='relative w-full h-full flex flex-col items-center justify-center overflow-hidden' style='background:linear-gradient(160deg,#0f0c29,#302b63,#24243e)'>",
+          "  <div class='absolute rounded-full' style='width:900px;height:900px;background:radial-gradient(circle,rgba(139,92,246,0.3) 0%,transparent 70%);top:50%;left:50%;transform:translate(-50%,-50%)'></div>",
+          "  <div class='relative z-10 text-purple-400 text-2xl tracking-widest uppercase mb-6' style='letter-spacing:0.3em'>今日の単語</div>",
+          "  <div class='relative z-10 text-white font-black text-center' style='font-size:148px;line-height:1;text-shadow:0 0 80px rgba(167,139,250,0.7),0 4px 32px rgba(0,0,0,0.5)'>Meticulous</div>",
+          "  <div class='relative z-10 mt-8 mb-14 rounded-full' style='width:320px;height:3px;background:linear-gradient(90deg,transparent,#a78bfa,#fde047,#a78bfa,transparent)'></div>",
+          "  <div class='relative z-10 font-bold text-center leading-snug px-8' style='color:#fde047;font-size:4.2rem;text-shadow:0 2px 20px rgba(0,0,0,0.6)'>見るだけで<br>新しい英単語が<br>身につく動画</div>",
           "</div>"
         ]
       }
