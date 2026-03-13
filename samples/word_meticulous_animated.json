@@ -10,12 +10,10 @@
   },
   "speechParams": {
     "speakers": {
-      "Presenter": {
-        "voiceId": "shimmer",
-        "displayName": {
-          "en": "Presenter",
-          "ja": "語り手"
-        }
+      "Announcer": {
+        "provider": "google",
+        "model": "gemini-2.5-flash-tts",
+        "voiceId": "Leda"
       }
     }
   },
@@ -28,29 +26,25 @@
   },
   "beats": [
     {
-      "text": "Meticulous",
-      "duration": 3,
+      "text": "見るだけで新しい単語が身につく動画です。",
+      "speaker": "Announcer",
+      "speechOptions": {
+        "speed": 2.0
+      },
       "image": {
         "type": "html_tailwind",
         "html": [
           "<div class='w-full h-full flex flex-col items-center justify-center' style='background: linear-gradient(135deg, #1e1b4b, #581c87)'>",
-          "  <div id='label' class='text-purple-300 text-3xl tracking-widest uppercase mb-8' style='opacity:0'>Word of the Day</div>",
-          "  <div id='word' class='text-white font-bold text-center' style='font-size:100px;line-height:1.1;opacity:0;transform:translateY(40px) scale(0.85)'>Meticulous</div>",
-          "  <div id='line' class='mt-10 rounded-full bg-purple-400' style='width:240px;height:4px;opacity:0;transform:scaleX(0);transform-origin:center'></div>",
+          "  <div class='font-bold text-center mb-16 leading-relaxed' style='color:#fde047;font-size:6.4rem'>見るだけで<br>新しい英単語が<br>身につく動画</div>",
+          "  <div class='text-purple-300 text-3xl tracking-widest uppercase mb-8'>今日の単語</div>",
+          "  <div class='text-white font-bold text-center' style='font-size:100px;line-height:1.1'>Meticulous</div>",
           "</div>"
-        ],
-        "script": [
-          "const animation = new MulmoAnimation();",
-          "animation.animate('#label', { opacity: [0, 1] }, { start: 0.05, end: 0.35, easing: 'easeOut' });",
-          "animation.animate('#word', { opacity: [0, 1], translateY: [40, 0], scale: [0.85, 1] }, { start: 0.25, end: 0.65, easing: 'easeOut' });",
-          "animation.animate('#line', { opacity: [0, 1], scaleX: [0, 1] }, { start: 0.6, end: 0.9, easing: 'easeOut' });"
-        ],
-        "animation": true
+        ]
       }
     },
     {
       "text": "Meticulous",
-      "duration": 4,
+      "duration": 5.0,
       "image": {
         "type": "html_tailwind",
         "html": [
@@ -72,12 +66,10 @@
     },
     {
       "text": "She is meticulous about her work.\nHe keeps meticulous records.\nThe chef is meticulous in presentation.",
-      "duration": 6,
       "image": {
         "type": "html_tailwind",
         "html": [
-          "<div class='w-full h-full flex flex-col px-16 pt-24' style='background: linear-gradient(135deg, #1e1b4b, #581c87)'>",
-          "  <div id='title' class='text-purple-300 text-3xl tracking-widest uppercase mb-14' style='opacity:0'>Examples</div>",
+          "<div class='w-full h-full flex flex-col items-center justify-center px-16' style='background: linear-gradient(135deg, #1e1b4b, #581c87)'>",
           "  <div id='s1' class='text-white text-4xl mb-10 leading-snug' style='opacity:0;transform:translateX(-48px)'>",
           "    She is <span style='color:#fde047;font-weight:700'>meticulous</span> about her work.",
           "  </div>",
@@ -91,7 +83,6 @@
         ],
         "script": [
           "const animation = new MulmoAnimation();",
-          "animation.animate('#title', { opacity: [0, 1] }, { start: 0.03, end: 0.2, easing: 'easeOut' });",
           "animation.animate('#s1', { opacity: [0, 1], translateX: [-48, 0] }, { start: 0.18, end: 0.42, easing: 'easeOut' });",
           "animation.animate('#s2', { opacity: [0, 1], translateX: [-48, 0] }, { start: 0.4, end: 0.64, easing: 'easeOut' });",
           "animation.animate('#s3', { opacity: [0, 1], translateX: [-48, 0] }, { start: 0.62, end: 0.86, easing: 'easeOut' });"
@@ -101,12 +92,10 @@
     },
     {
       "text": "She is meticulous about her work.",
-      "duration": 5,
       "image": {
         "type": "html_tailwind",
         "html": [
           "<div class='w-full h-full flex flex-col items-center justify-center px-16' style='background: linear-gradient(135deg, #1e1b4b, #581c87)'>",
-          "  <div id='num' class='text-purple-400 text-2xl tracking-widest uppercase mb-8' style='opacity:0'>Example 1</div>",
           "  <div id='en' class='text-white text-5xl text-center leading-tight mb-12' style='opacity:0;transform:translateY(-24px)'>",
           "    She is <span style='color:#fde047;font-weight:700'>meticulous</span> about her work.",
           "  </div>",
@@ -118,7 +107,6 @@
         ],
         "script": [
           "const animation = new MulmoAnimation();",
-          "animation.animate('#num', { opacity: [0, 1] }, { start: 0.05, end: 0.22, easing: 'easeOut' });",
           "animation.animate('#en', { opacity: [0, 1], translateY: [-24, 0] }, { start: 0.15, end: 0.42, easing: 'easeOut' });",
           "animation.animate('#div', { opacity: [0, 1], scaleX: [0, 1] }, { start: 0.42, end: 0.6, easing: 'easeOut' });",
           "animation.animate('#ja', { opacity: [0, 1], translateY: [24, 0] }, { start: 0.58, end: 0.82, easing: 'easeOut' });"
@@ -128,12 +116,10 @@
     },
     {
       "text": "He keeps meticulous records.",
-      "duration": 5,
       "image": {
         "type": "html_tailwind",
         "html": [
           "<div class='w-full h-full flex flex-col items-center justify-center px-16' style='background: linear-gradient(135deg, #1e1b4b, #581c87)'>",
-          "  <div id='num' class='text-purple-400 text-2xl tracking-widest uppercase mb-8' style='opacity:0'>Example 2</div>",
           "  <div id='en' class='text-white text-5xl text-center leading-tight mb-12' style='opacity:0;transform:translateY(-24px)'>",
           "    He keeps <span style='color:#fde047;font-weight:700'>meticulous</span> records.",
           "  </div>",
@@ -145,7 +131,6 @@
         ],
         "script": [
           "const animation = new MulmoAnimation();",
-          "animation.animate('#num', { opacity: [0, 1] }, { start: 0.05, end: 0.22, easing: 'easeOut' });",
           "animation.animate('#en', { opacity: [0, 1], translateY: [-24, 0] }, { start: 0.15, end: 0.42, easing: 'easeOut' });",
           "animation.animate('#div', { opacity: [0, 1], scaleX: [0, 1] }, { start: 0.42, end: 0.6, easing: 'easeOut' });",
           "animation.animate('#ja', { opacity: [0, 1], translateY: [24, 0] }, { start: 0.58, end: 0.82, easing: 'easeOut' });"
@@ -155,12 +140,10 @@
     },
     {
       "text": "The chef is meticulous in presentation.",
-      "duration": 5,
       "image": {
         "type": "html_tailwind",
         "html": [
           "<div class='w-full h-full flex flex-col items-center justify-center px-16' style='background: linear-gradient(135deg, #1e1b4b, #581c87)'>",
-          "  <div id='num' class='text-purple-400 text-2xl tracking-widest uppercase mb-8' style='opacity:0'>Example 3</div>",
           "  <div id='en' class='text-white text-5xl text-center leading-tight mb-12' style='opacity:0;transform:translateY(-24px)'>",
           "    The chef is <span style='color:#fde047;font-weight:700'>meticulous</span> in presentation.",
           "  </div>",
@@ -172,7 +155,6 @@
         ],
         "script": [
           "const animation = new MulmoAnimation();",
-          "animation.animate('#num', { opacity: [0, 1] }, { start: 0.05, end: 0.22, easing: 'easeOut' });",
           "animation.animate('#en', { opacity: [0, 1], translateY: [-24, 0] }, { start: 0.15, end: 0.42, easing: 'easeOut' });",
           "animation.animate('#div', { opacity: [0, 1], scaleX: [0, 1] }, { start: 0.42, end: 0.6, easing: 'easeOut' });",
           "animation.animate('#ja', { opacity: [0, 1], translateY: [24, 0] }, { start: 0.58, end: 0.82, easing: 'easeOut' });"
