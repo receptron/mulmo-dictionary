@@ -1,0 +1,198 @@
+{
+  "$mulmocast": {
+    "version": "1.1"
+  },
+  "title": "Word: Voucher",
+  "lang": "en",
+  "canvasSize": {
+    "width": 1024,
+    "height": 1536
+  },
+  "speechParams": {
+    "speakers": {
+      "Announcer": {
+        "provider": "google",
+        "model": "gemini-2.5-flash-tts",
+        "voiceId": "Leda"
+      }
+    }
+  },
+  "audioParams": {
+    "bgm": {
+      "kind": "url",
+      "url": "https://github.com/receptron/mulmocast-media/raw/refs/heads/main/bgms/story004.mp3"
+    },
+    "bgmVolume": 0.1
+  },
+  "imageParams": {
+    "provider": "google",
+    "model": "gemini-2.5-flash-image",
+    "images": {
+      "sample_1": {
+        "type": "imagePrompt",
+        "prompt": "A smiling woman at a luxurious hotel front desk handing a printed voucher to a friendly receptionist in uniform. The grand lobby behind them features marble floors, tall flower arrangements, and warm ambient lighting. Photorealistic style, shallow depth of field, warm elegant tones, cinematic composition."
+      },
+      "sample_2": {
+        "type": "imagePrompt",
+        "prompt": "A cheerful office worker opening a holiday greeting card at her desk to find a gift voucher inside, her face lighting up with delight. The desk is decorated with subtle festive ornaments and soft fairy lights. Colleagues in the blurred background celebrate around her. Photorealistic style, shallow depth of field, warm festive tones, cinematic intimate composition."
+      },
+      "sample_3": {
+        "type": "imagePrompt",
+        "prompt": "A well-dressed man at a cozy downtown restaurant table presenting a folded meal voucher to an attentive waiter. Candles flicker on the white tablecloth, wine glasses gleam, and the warm restaurant interior is visible in the soft background. Photorealistic style, shallow depth of field, rich amber tones, cinematic composition."
+      }
+    }
+  },
+  "beats": [
+    {
+      "text": "見るだけで新しい単語が身につく動画です。",
+      "speaker": "Announcer",
+      "speechOptions": {
+        "speed": 2.0
+      },
+      "image": {
+        "type": "html_tailwind",
+        "html": [
+          "<div class='relative w-full h-full flex flex-col items-center justify-center overflow-hidden' style='background:linear-gradient(160deg,#0f0c29,#302b63,#24243e)'>",
+          "  <div class='absolute rounded-full' style='width:900px;height:900px;background:radial-gradient(circle,rgba(139,92,246,0.3) 0%,transparent 70%);top:50%;left:50%;transform:translate(-50%,-50%)'></div>",
+          "  <div class='relative z-10 text-purple-400 text-2xl tracking-widest uppercase mb-6' style='letter-spacing:0.3em'>今日の単語</div>",
+          "  <div class='relative z-10 text-white font-black text-center' style='font-size:148px;line-height:1;text-shadow:0 0 80px rgba(167,139,250,0.7),0 4px 32px rgba(0,0,0,0.5)'>Voucher</div>",
+          "  <div class='relative z-10 mt-8 mb-14 rounded-full' style='width:320px;height:3px;background:linear-gradient(90deg,transparent,#a78bfa,#fde047,#a78bfa,transparent)'></div>",
+          "  <div class='relative z-10 font-bold text-center leading-snug px-8' style='color:#fde047;font-size:4.2rem;text-shadow:0 2px 20px rgba(0,0,0,0.6)'>見るだけで<br>新しい英単語が<br>身につく動画</div>",
+          "</div>"
+        ]
+      }
+    },
+    {
+      "text": "Voucher",
+      "duration": 5.0,
+      "image": {
+        "type": "html_tailwind",
+        "html": [
+          "<div class='w-full h-full flex flex-col items-center justify-center px-16' style='background: linear-gradient(135deg, #1e1b4b, #581c87)'>",
+          "  <div class='text-white font-bold text-center mb-6' style='font-size:88px;line-height:1.1'>Voucher</div>",
+          "  <div id='badge' class='text-white text-2xl px-8 py-2 rounded-full mb-14' style='background:#7c3aed;opacity:0;transform:scale(0.7)'>noun</div>",
+          "  <div id='def' class='text-purple-200 text-4xl text-center leading-relaxed' style='opacity:0;transform:translateY(24px)'>",
+          "    A document or coupon entitling the holder<br>to a discount, free item, or service",
+          "  </div>",
+          "</div>"
+        ],
+        "script": [
+          "const animation = new MulmoAnimation();",
+          "animation.animate('#badge', { opacity: [0, 1], scale: [0.7, 1] }, { start: 0.1, end: 0.4, easing: 'easeOut' });",
+          "animation.animate('#def', { opacity: [0, 1], translateY: [24, 0] }, { start: 0.4, end: 0.75, easing: 'easeOut' });"
+        ],
+        "animation": true
+      }
+    },
+    {
+      "text": "She used a voucher to get 20% off her hotel stay.\nThe company gave each employee a gift voucher for the holidays.\nHe redeemed a meal voucher at the restaurant downtown.",
+      "image": {
+        "type": "html_tailwind",
+        "html": [
+          "<div class='w-full h-full flex flex-col items-center justify-center px-16' style='background: linear-gradient(135deg, #1e1b4b, #581c87)'>",
+          "  <div id='s1' class='text-white text-4xl mb-10 leading-snug' style='opacity:0;transform:translateX(-48px)'>",
+          "    She used a <span style='color:#fde047;font-weight:700'>voucher</span> to get 20% off her hotel stay.",
+          "  </div>",
+          "  <div id='s2' class='text-white text-4xl mb-10 leading-snug' style='opacity:0;transform:translateX(-48px)'>",
+          "    The company gave each employee a gift <span style='color:#fde047;font-weight:700'>voucher</span> for the holidays.",
+          "  </div>",
+          "  <div id='s3' class='text-white text-4xl leading-snug' style='opacity:0;transform:translateX(-48px)'>",
+          "    He redeemed a meal <span style='color:#fde047;font-weight:700'>voucher</span> at the restaurant downtown.",
+          "  </div>",
+          "</div>"
+        ],
+        "script": [
+          "const animation = new MulmoAnimation();",
+          "animation.animate('#s1', { opacity: [0, 1], translateX: [-48, 0] }, { start: 0.18, end: 0.42, easing: 'easeOut' });",
+          "animation.animate('#s2', { opacity: [0, 1], translateX: [-48, 0] }, { start: 0.4, end: 0.64, easing: 'easeOut' });",
+          "animation.animate('#s3', { opacity: [0, 1], translateX: [-48, 0] }, { start: 0.62, end: 0.86, easing: 'easeOut' });"
+        ],
+        "animation": true
+      }
+    },
+    {
+      "text": "She used a voucher to get 20% off her hotel stay.",
+      "image": {
+        "type": "html_tailwind",
+        "html": [
+          "<div class='relative w-full h-full overflow-hidden'>",
+          "  <img src='image:sample_1' class='absolute inset-0 w-full h-full object-cover'>",
+          "  <div class='absolute inset-0' style='background:linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.55) 30%, rgba(0,0,0,0) 60%)'></div>",
+          "  <div class='absolute inset-0 flex flex-col items-center justify-end pb-20 px-16'>",
+          "    <div id='en' class='text-white text-5xl text-center leading-tight mb-10' style='opacity:0;transform:translateY(24px)'>",
+          "      She used a <span style='color:#fde047;font-weight:700'>voucher</span> to get 20% off her hotel stay.",
+          "    </div>",
+          "    <div id='div' class='rounded-full mb-10' style='width:320px;height:2px;background:#7c3aed;opacity:0;transform:scaleX(0);transform-origin:center'></div>",
+          "    <div id='ja' class='text-purple-200 text-4xl text-center leading-relaxed' style='opacity:0;transform:translateY(24px)'>",
+          "      彼女はバウチャーを使って、<br>ホテル宿泊代を20%割引にした。",
+          "    </div>",
+          "  </div>",
+          "</div>"
+        ],
+        "script": [
+          "const animation = new MulmoAnimation();",
+          "animation.animate('#en', { opacity: [0, 1], translateY: [24, 0] }, { start: 0.15, end: 0.42, easing: 'easeOut' });",
+          "animation.animate('#div', { opacity: [0, 1], scaleX: [0, 1] }, { start: 0.42, end: 0.6, easing: 'easeOut' });",
+          "animation.animate('#ja', { opacity: [0, 1], translateY: [24, 0] }, { start: 0.58, end: 0.82, easing: 'easeOut' });"
+        ],
+        "animation": true
+      }
+    },
+    {
+      "text": "The company gave each employee a gift voucher for the holidays.",
+      "image": {
+        "type": "html_tailwind",
+        "html": [
+          "<div class='relative w-full h-full overflow-hidden'>",
+          "  <img src='image:sample_2' class='absolute inset-0 w-full h-full object-cover'>",
+          "  <div class='absolute inset-0' style='background:linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.55) 30%, rgba(0,0,0,0) 60%)'></div>",
+          "  <div class='absolute inset-0 flex flex-col items-center justify-end pb-20 px-16'>",
+          "    <div id='en' class='text-white text-4xl text-center leading-tight mb-10' style='opacity:0;transform:translateY(24px)'>",
+          "      The company gave each employee a gift <span style='color:#fde047;font-weight:700'>voucher</span> for the holidays.",
+          "    </div>",
+          "    <div id='div' class='rounded-full mb-10' style='width:320px;height:2px;background:#7c3aed;opacity:0;transform:scaleX(0);transform-origin:center'></div>",
+          "    <div id='ja' class='text-purple-200 text-4xl text-center leading-relaxed' style='opacity:0;transform:translateY(24px)'>",
+          "      会社は社員全員に年末の<br>ギフトバウチャーを渡した。",
+          "    </div>",
+          "  </div>",
+          "</div>"
+        ],
+        "script": [
+          "const animation = new MulmoAnimation();",
+          "animation.animate('#en', { opacity: [0, 1], translateY: [24, 0] }, { start: 0.15, end: 0.42, easing: 'easeOut' });",
+          "animation.animate('#div', { opacity: [0, 1], scaleX: [0, 1] }, { start: 0.42, end: 0.6, easing: 'easeOut' });",
+          "animation.animate('#ja', { opacity: [0, 1], translateY: [24, 0] }, { start: 0.58, end: 0.82, easing: 'easeOut' });"
+        ],
+        "animation": true
+      }
+    },
+    {
+      "text": "He redeemed a meal voucher at the restaurant downtown.",
+      "image": {
+        "type": "html_tailwind",
+        "html": [
+          "<div class='relative w-full h-full overflow-hidden'>",
+          "  <img src='image:sample_3' class='absolute inset-0 w-full h-full object-cover'>",
+          "  <div class='absolute inset-0' style='background:linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.55) 30%, rgba(0,0,0,0) 60%)'></div>",
+          "  <div class='absolute inset-0 flex flex-col items-center justify-end pb-20 px-16'>",
+          "    <div id='en' class='text-white text-5xl text-center leading-tight mb-10' style='opacity:0;transform:translateY(24px)'>",
+          "      He redeemed a meal <span style='color:#fde047;font-weight:700'>voucher</span> at the restaurant downtown.",
+          "    </div>",
+          "    <div id='div' class='rounded-full mb-10' style='width:320px;height:2px;background:#7c3aed;opacity:0;transform:scaleX(0);transform-origin:center'></div>",
+          "    <div id='ja' class='text-purple-200 text-4xl text-center leading-relaxed' style='opacity:0;transform:translateY(24px)'>",
+          "      彼は市内のレストランで<br>ミールバウチャーを使った。",
+          "    </div>",
+          "  </div>",
+          "</div>"
+        ],
+        "script": [
+          "const animation = new MulmoAnimation();",
+          "animation.animate('#en', { opacity: [0, 1], translateY: [24, 0] }, { start: 0.15, end: 0.42, easing: 'easeOut' });",
+          "animation.animate('#div', { opacity: [0, 1], scaleX: [0, 1] }, { start: 0.42, end: 0.6, easing: 'easeOut' });",
+          "animation.animate('#ja', { opacity: [0, 1], translateY: [24, 0] }, { start: 0.58, end: 0.82, easing: 'easeOut' });"
+        ],
+        "animation": true
+      }
+    }
+  ]
+}

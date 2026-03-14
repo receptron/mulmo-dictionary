@@ -9,7 +9,7 @@ Generate a MulmoCast vocabulary video script for the word: $ARGUMENTS
 ## Instructions
 
 1. Read `samples/word_meticulous_animated.json` as the structural template.
-2. Create a new JSON file at `toeic800/word_<slug>.json` where `<slug>` is the word lowercased with spaces replaced by underscores (e.g. "a lot of" → `word_a_lot_of.json`).
+2. Create a new JSON file at `toeic600/word_<slug>.json` where `<slug>` is the word lowercased with spaces replaced by underscores (e.g. "a lot of" → `word_a_lot_of.json`).
 3. If an image style is specified in the arguments (e.g. "Ghibli style", "anime style"), apply it to all three image prompts. Otherwise use photorealistic style.
 
 ## Content to generate
