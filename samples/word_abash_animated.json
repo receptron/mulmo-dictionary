@@ -2,7 +2,7 @@
   "$mulmocast": {
     "version": "1.1"
   },
-  "title": "【今日の単語】Meticulous",
+  "title": "Word: Abash",
   "lang": "en",
   "canvasSize": {
     "width": 1024,
@@ -30,15 +30,15 @@
     "images": {
       "sample_1": {
         "type": "imagePrompt",
-        "prompt": "A focused young professional woman sitting at a clean, organized desk, carefully reviewing documents with a fine-tipped pen in hand. She wears glasses and smart business casual attire. Every item on the desk — papers, sticky notes, pens — is neatly arranged. Warm office lighting with soft bokeh background. Photorealistic style, shallow depth of field, warm tones, cinematic composition."
+        "prompt": "A fluffy orange cat sitting on a kitchen floor looking deeply embarrassed and sheepish, surrounded by a knocked-over vase and scattered flowers. The cat has one paw raised awkwardly and refuses to make eye contact. Several people in the background are stifling laughter. Warm home interior, bright lighting, humorous and charming atmosphere, photorealistic style with a slightly comedic tone."
       },
       "sample_2": {
         "type": "imagePrompt",
-        "prompt": "A meticulous middle-aged man sitting at a tidy desk, carefully writing entries into a large open ledger book with a fountain pen. Beside him are neatly labeled folders, color-coded tabs, and a perfectly organized filing system. His expression is calm and focused. Soft natural light from a window illuminates the scene. Photorealistic style, shallow depth of field, cool-neutral tones, cinematic composition."
+        "prompt": "A teenage boy standing at the front of a classroom, hand over his mouth in pure horror, having just called his stern-faced teacher 'Mom' by mistake. The teacher raises one eyebrow. The entire class is in various states of trying not to laugh — some hiding behind books, some covering their mouths. The boy's face is bright red. Bright classroom setting, comedic and lighthearted atmosphere, photorealistic style."
       },
       "sample_3": {
         "type": "imagePrompt",
-        "prompt": "A professional chef in a pristine white uniform leaning over a restaurant plate, using tweezers to place a delicate garnish with extreme precision. The dish is an artistic arrangement of colorful ingredients on a minimalist white plate. The kitchen background is softly blurred with warm ambient lighting. Photorealistic style, shallow depth of field, rich warm tones, cinematic close-up composition."
+        "prompt": "A young woman sitting in a corporate video conference meeting, eyes wide open in sudden horror, realizing she has been belting out a pop song at full volume with noise-canceling headphones on while her colleagues on the screen stare at her in disbelief. Her mouth is wide open mid-song. Laptop screen shows a grid of shocked colleagues. Modern home office, comedic and vivid atmosphere, photorealistic style."
       }
     }
   },
@@ -55,7 +55,7 @@
           "<div class='relative w-full h-full flex flex-col items-center justify-center overflow-hidden' style='background:linear-gradient(160deg,#0f0c29,#302b63,#24243e)'>",
           "  <div class='absolute rounded-full' style='width:900px;height:900px;background:radial-gradient(circle,rgba(139,92,246,0.3) 0%,transparent 70%);top:50%;left:50%;transform:translate(-50%,-50%)'></div>",
           "  <div class='relative z-10 text-purple-400 text-2xl tracking-widest uppercase mb-6' style='letter-spacing:0.3em'>今日の単語</div>",
-          "  <div class='relative z-10 text-white font-black text-center' style='font-size:148px;line-height:1;text-shadow:0 0 80px rgba(167,139,250,0.7),0 4px 32px rgba(0,0,0,0.5)'>Meticulous</div>",
+          "  <div class='relative z-10 text-white font-black text-center' style='font-size:148px;line-height:1;text-shadow:0 0 80px rgba(167,139,250,0.7),0 4px 32px rgba(0,0,0,0.5)'>Abash</div>",
           "  <div class='relative z-10 mt-8 mb-14 rounded-full' style='width:320px;height:3px;background:linear-gradient(90deg,transparent,#a78bfa,#fde047,#a78bfa,transparent)'></div>",
           "  <div class='relative z-10 font-bold text-center leading-snug px-8' style='color:#fde047;font-size:4.2rem;text-shadow:0 2px 20px rgba(0,0,0,0.6)'>見るだけで<br>新しい英単語が<br>身につく動画</div>",
           "</div>"
@@ -63,16 +63,16 @@
       }
     },
     {
-      "text": "Meticulous",
+      "text": "Abash",
       "duration": 5.0,
       "image": {
         "type": "html_tailwind",
         "html": [
           "<div class='w-full h-full flex flex-col items-center justify-center px-16' style='background: linear-gradient(135deg, #1e1b4b, #581c87)'>",
-          "  <div class='text-white font-bold text-center mb-6' style='font-size:88px;line-height:1.1'>Meticulous</div>",
-          "  <div id='badge' class='text-white text-2xl px-8 py-2 rounded-full mb-14' style='background:#7c3aed;opacity:0;transform:scale(0.7)'>adjective</div>",
+          "  <div class='text-white font-bold text-center mb-6' style='font-size:88px;line-height:1.1'>Abash</div>",
+          "  <div id='badge' class='text-white text-2xl px-8 py-2 rounded-full mb-14' style='background:#7c3aed;opacity:0;transform:scale(0.7)'>verb</div>",
           "  <div id='def' class='text-purple-200 text-4xl text-center leading-relaxed' style='opacity:0;transform:translateY(24px)'>",
-          "    Showing great attention to detail;<br>very careful and precise",
+          "    To make someone feel embarrassed,<br>ashamed, or ill at ease",
           "  </div>",
           "</div>"
         ],
@@ -85,19 +85,19 @@
       }
     },
     {
-      "text": "She is meticulous about her work.\nHe keeps meticulous records.\nThe chef is meticulous in presentation.",
+      "text": "The cat was abashed when it fell off the table in front of everyone.\nHe was abashed after calling his teacher \"Mom\" in class.\nShe was abashed to realize she had been singing aloud during the whole meeting.",
       "image": {
         "type": "html_tailwind",
         "html": [
           "<div class='w-full h-full flex flex-col items-center justify-center px-16' style='background: linear-gradient(135deg, #1e1b4b, #581c87)'>",
-          "  <div id='s1' class='text-white text-5xl mb-10 leading-snug' style='opacity:0;transform:translateX(-48px)'>",
-          "    She is <span style='color:#fde047;font-weight:700'>meticulous</span> about her work.",
+          "  <div id='s1' class='text-white text-4xl mb-10 leading-snug' style='opacity:0;transform:translateX(-48px)'>",
+          "    The cat was <span style='color:#fde047;font-weight:700'>abashed</span> when it fell off the table in front of everyone.",
           "  </div>",
-          "  <div id='s2' class='text-white text-5xl mb-10 leading-snug' style='opacity:0;transform:translateX(-48px)'>",
-          "    He keeps <span style='color:#fde047;font-weight:700'>meticulous</span> records.",
+          "  <div id='s2' class='text-white text-4xl mb-10 leading-snug' style='opacity:0;transform:translateX(-48px)'>",
+          "    He was <span style='color:#fde047;font-weight:700'>abashed</span> after calling his teacher \"Mom\" in class.",
           "  </div>",
-          "  <div id='s3' class='text-white text-5xl leading-snug' style='opacity:0;transform:translateX(-48px)'>",
-          "    The chef is <span style='color:#fde047;font-weight:700'>meticulous</span> in presentation.",
+          "  <div id='s3' class='text-white text-4xl leading-snug' style='opacity:0;transform:translateX(-48px)'>",
+          "    She was <span style='color:#fde047;font-weight:700'>abashed</span> to realize she had been singing aloud during the whole meeting.",
           "  </div>",
           "</div>"
         ],
@@ -111,7 +111,7 @@
       }
     },
     {
-      "text": "She is meticulous about her work.",
+      "text": "The cat was abashed when it fell off the table in front of everyone.",
       "image": {
         "type": "html_tailwind",
         "html": [
@@ -119,12 +119,12 @@
           "  <img src='image:sample_1' class='absolute inset-0 w-full h-full object-cover'>",
           "  <div class='absolute inset-0' style='background:linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.55) 30%, rgba(0,0,0,0) 60%)'></div>",
           "  <div class='absolute inset-0 flex flex-col items-center justify-end pb-20 px-16'>",
-          "    <div id='en' class='text-white text-5xl text-center leading-tight mb-10' style='opacity:0;transform:translateY(24px)'>",
-          "      She is <span style='color:#fde047;font-weight:700'>meticulous</span> about her work.",
+          "    <div id='en' class='text-white text-4xl text-center leading-tight mb-10' style='opacity:0;transform:translateY(24px)'>",
+          "      The cat was <span style='color:#fde047;font-weight:700'>abashed</span> when it fell off the table in front of everyone.",
           "    </div>",
           "    <div id='div' class='rounded-full mb-10' style='width:320px;height:2px;background:#7c3aed;opacity:0;transform:scaleX(0);transform-origin:center'></div>",
           "    <div id='ja' class='text-purple-200 text-4xl text-center leading-relaxed' style='opacity:0;transform:translateY(24px)'>",
-          "      彼女は仕事に細心の注意を払う。",
+          "      その猫はみんなの前でテーブルから落ちて、きまり悪そうにした。",
           "    </div>",
           "  </div>",
           "</div>"
@@ -139,7 +139,7 @@
       }
     },
     {
-      "text": "He keeps meticulous records.",
+      "text": "He was abashed after calling his teacher \"Mom\" in class.",
       "image": {
         "type": "html_tailwind",
         "html": [
@@ -147,12 +147,12 @@
           "  <img src='image:sample_2' class='absolute inset-0 w-full h-full object-cover'>",
           "  <div class='absolute inset-0' style='background:linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.55) 30%, rgba(0,0,0,0) 60%)'></div>",
           "  <div class='absolute inset-0 flex flex-col items-center justify-end pb-20 px-16'>",
-          "    <div id='en' class='text-white text-5xl text-center leading-tight mb-10' style='opacity:0;transform:translateY(24px)'>",
-          "      He keeps <span style='color:#fde047;font-weight:700'>meticulous</span> records.",
+          "    <div id='en' class='text-white text-4xl text-center leading-tight mb-10' style='opacity:0;transform:translateY(24px)'>",
+          "      He was <span style='color:#fde047;font-weight:700'>abashed</span> after calling his teacher \"Mom\" in class.",
           "    </div>",
           "    <div id='div' class='rounded-full mb-10' style='width:320px;height:2px;background:#7c3aed;opacity:0;transform:scaleX(0);transform-origin:center'></div>",
           "    <div id='ja' class='text-purple-200 text-4xl text-center leading-relaxed' style='opacity:0;transform:translateY(24px)'>",
-          "      彼は几帳面に記録をつける。",
+          "      授業中に先生を「お母さん」と呼んでしまい、彼は恥ずかしくて穴に入りたかった。",
           "    </div>",
           "  </div>",
           "</div>"
@@ -167,7 +167,7 @@
       }
     },
     {
-      "text": "The chef is meticulous in presentation.",
+      "text": "She was abashed to realize she had been singing aloud during the whole meeting.",
       "image": {
         "type": "html_tailwind",
         "html": [
@@ -175,12 +175,12 @@
           "  <img src='image:sample_3' class='absolute inset-0 w-full h-full object-cover'>",
           "  <div class='absolute inset-0' style='background:linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.55) 30%, rgba(0,0,0,0) 60%)'></div>",
           "  <div class='absolute inset-0 flex flex-col items-center justify-end pb-20 px-16'>",
-          "    <div id='en' class='text-white text-5xl text-center leading-tight mb-10' style='opacity:0;transform:translateY(24px)'>",
-          "      The chef is <span style='color:#fde047;font-weight:700'>meticulous</span> in presentation.",
+          "    <div id='en' class='text-white text-4xl text-center leading-tight mb-10' style='opacity:0;transform:translateY(24px)'>",
+          "      She was <span style='color:#fde047;font-weight:700'>abashed</span> to realize she had been singing aloud during the whole meeting.",
           "    </div>",
           "    <div id='div' class='rounded-full mb-10' style='width:320px;height:2px;background:#7c3aed;opacity:0;transform:scaleX(0);transform-origin:center'></div>",
           "    <div id='ja' class='text-purple-200 text-4xl text-center leading-relaxed' style='opacity:0;transform:translateY(24px)'>",
-          "      そのシェフは盛り付けに非常にこだわる。",
+          "      会議中ずっと声に出して歌っていたと気づき、彼女は顔から火が出るほど恥ずかしかった。",
           "    </div>",
           "  </div>",
           "</div>"

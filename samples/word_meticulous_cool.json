@@ -2,7 +2,7 @@
   "$mulmocast": {
     "version": "1.1"
   },
-  "title": "【今日の単語】Meticulous",
+  "title": "Word: Meticulous",
   "lang": "en",
   "canvasSize": {
     "width": 1024,
@@ -30,15 +30,15 @@
     "images": {
       "sample_1": {
         "type": "imagePrompt",
-        "prompt": "A focused young professional woman sitting at a clean, organized desk, carefully reviewing documents with a fine-tipped pen in hand. She wears glasses and smart business casual attire. Every item on the desk — papers, sticky notes, pens — is neatly arranged. Warm office lighting with soft bokeh background. Photorealistic style, shallow depth of field, warm tones, cinematic composition."
+        "prompt": "A focused young professional woman sitting at a clean, organized desk, carefully reviewing documents with a fine-tipped pen in hand. She wears glasses and smart business casual attire. Every item on the desk — papers, sticky notes, pens — is neatly arranged. 35mm lens, motivated side lighting, shallow depth of field at f/1.4, warm foreground against cool blue background."
       },
       "sample_2": {
         "type": "imagePrompt",
-        "prompt": "A meticulous middle-aged man sitting at a tidy desk, carefully writing entries into a large open ledger book with a fountain pen. Beside him are neatly labeled folders, color-coded tabs, and a perfectly organized filing system. His expression is calm and focused. Soft natural light from a window illuminates the scene. Photorealistic style, shallow depth of field, cool-neutral tones, cinematic composition."
+        "prompt": "A meticulous middle-aged man sitting at a tidy desk, carefully writing entries into a large open ledger book with a fountain pen. Beside him are neatly labeled folders, color-coded tabs, and a perfectly organized filing system. His expression is calm and focused. 35mm lens, motivated side lighting, shallow depth of field at f/1.4, warm foreground against cool blue background."
       },
       "sample_3": {
         "type": "imagePrompt",
-        "prompt": "A professional chef in a pristine white uniform leaning over a restaurant plate, using tweezers to place a delicate garnish with extreme precision. The dish is an artistic arrangement of colorful ingredients on a minimalist white plate. The kitchen background is softly blurred with warm ambient lighting. Photorealistic style, shallow depth of field, rich warm tones, cinematic close-up composition."
+        "prompt": "A professional chef in a pristine white uniform leaning over a restaurant plate, using tweezers to place a delicate garnish with extreme precision. The dish is an artistic arrangement of colorful ingredients on a minimalist white plate. The kitchen background is softly blurred with warm ambient lighting. 35mm lens, motivated side lighting, shallow depth of field at f/1.4, warm foreground against cool blue background."
       }
     }
   },
